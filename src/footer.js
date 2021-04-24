@@ -9,7 +9,7 @@ function Footer() {
       <div className="contact">
          <div className="contact-headline">
             <h3>Want to get in touch?<br/>Drop me a line!</h3>
-            <p className="paragraph-light">Please send an Email to saisam@umich.edu</p>
+            <p className="paragraph-light">Please send an Email to saisam@umich.edu or sign up for the form below</p>
          </div>
          {/* 
          <div className="contact-form-wrap">
@@ -20,6 +20,20 @@ function Footer() {
             </div>
          </div>
          */}
+         <div >
+         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myylzapr" method="post">
+  <fieldset id="form">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required=""/>
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""/>
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="How is Life Sai?" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
+  </fieldset>
+  <input type="submit" value="Submit" className="button"/>
+   </form>
+</div>
       </div>
    </div>
 </div>

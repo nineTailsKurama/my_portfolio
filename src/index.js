@@ -8,14 +8,16 @@ import spanish from './spanish';
 import Background from './background';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
 
+
+
 ReactDOM.render(
-  <Router>
+  <Router >
   <Switch>
     <Route exact path="/" component={Background }/>
     <Route exact path="/main" component={App }/>

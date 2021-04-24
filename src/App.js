@@ -44,7 +44,7 @@ function App() {
    <div id = "main-header-banner">
 
       
-      <h1 > Hi, I'm Sai ! I am a Senior at the University of Michiga will be heading to grad school next. I love solving challenging problems that positively impact people and society. Through this website, I want to share some of the projects i have worked on. </h1>
+      <h1 > Hi, I'm Sai ! I am a Senior at the University of Michigan will be heading to grad school next. I love solving challenging problems that positively impact people and society. Through this website, I want to share some of the projects i have worked on. </h1>
    </div>
    <p className="scroll">Scroll down to see my work</p>
 
