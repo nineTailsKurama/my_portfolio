@@ -229,7 +229,8 @@ header{
   flex-flow: row wrap;
   align-content:flex-end;
   flex-direction:column;
-    margin-bottom: 100px;
+  margin-bottom: 100px;
+  padding:20px;
 
 }
 
@@ -318,6 +319,21 @@ p{
 
 }
 
+.button {
+  margin:15px;
+  padding: 25px;
+  border-radius: 0px;
+  background-color: #1a1b1f;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 #menu-button{
   padding-right: 10px;
 }
@@ -379,8 +395,8 @@ h4 {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
+  justify-content: flex-start;
+
 }
 
 img{
@@ -388,8 +404,9 @@ img{
 }
 
 .section.cc-contact {
-  padding-right: 80px;
-  padding-left: 80px;
+
+  padding: 80px;
+  padding-bottom: 30px;
   background-color: #f4f4f4;
 }
 
@@ -444,6 +461,23 @@ h2 {
   text-transform: uppercase;
 }
 
+#form{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#form label{
+  padding:10px;
+  
+}
+
+#form input{
+  max-width: 300px;
+  height: 50px;
+  
+}
+
 .navigation-item:hover {
   opacity: 0.9;
 }
@@ -466,8 +500,6 @@ h2 {
 
 }
 
-@media only screen and (min-width: 725px) {
-
 #projects{
   display: flex;
   flex-wrap: wrap;
@@ -476,10 +508,21 @@ h2 {
 
 }
 
+@media only screen and (min-width: 725px) {
+
+#projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 50px;
+
+}
+
 #other-books{
   display: flex;
   flex-flow: row wrap;
 }
+
 
 
 #listbooks{
